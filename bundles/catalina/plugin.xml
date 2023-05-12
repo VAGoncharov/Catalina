@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?eclipse version="3.4"?>
+<plugin>
+   <extension
+         point="com.e1c.g5.v8.dt.check.checks">
+      <category
+            description="Catalina V8 checks"
+            id="catalina"
+            title="Catalina V8 checks">
+      </category>
+   </extension>
+
+</plugin>

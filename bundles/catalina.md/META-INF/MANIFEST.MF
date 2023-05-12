@@ -1,0 +1,27 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Catalina MD
+Bundle-SymbolicName: catalina.md;singleton:=true
+Bundle-Version: 0.1.0.qualifier
+Bundle-Activator: catalina.internal.md.CorePlugin
+Require-Bundle: org.eclipse.core.runtime,
+ org.eclipse.core.resources;bundle-version="3.16.100",
+ org.eclipse.emf.ecore;bundle-version="2.26.0",
+ org.eclipse.xtext;bundle-version="2.26.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-11
+Automatic-Module-Name: catalina.md
+Bundle-ActivationPolicy: lazy
+Import-Package: com._1c.g5.v8.bm.core;version="7.7.100",
+ com._1c.g5.v8.dt.core.naming;version="6.0.0",
+ com._1c.g5.v8.dt.core.platform;version="10.7.0",
+ com._1c.g5.v8.dt.mcore.util;version="3.13.0",
+ com._1c.g5.v8.dt.metadata.mdclass;version="8.10.0",
+ com._1c.g5.v8.dt.metadata.mdclass.util;version="5.13.0",
+ com._1c.g5.v8.dt.platform;version="6.0.0",
+ com._1c.g5.wiring;version="2.2.0",
+ com._1c.g5.wiring.binder;version="1.1.0",
+ com.e1c.g5.v8.dt.check;version="2.1.0",
+ com.e1c.g5.v8.dt.check.components;version="2.0.100",
+ com.e1c.g5.v8.dt.check.settings;version="3.1.0",
+ com.google.common.base;version="15.0.0",
+ com.google.inject;version="5.0.1"
